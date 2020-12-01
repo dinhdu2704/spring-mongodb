@@ -1,0 +1,23 @@
+spring:
+  main:
+    web-application-type: none
+  data:
+    mongodb:
+      host: 10.15.12.227
+      port: 27017
+      database: resourcedb
+  rabbitmq:
+    host: 10.15.13.154
+    port: 5672
+    username: root
+    password: root
+  redis:
+    hostName: 10.15.13.154
+    port: 6379
+    password: root
+  #    sentinel:
+  #      master: mymaster
+  #      nodes: localhost:26379
+
+#config for application
+application:
