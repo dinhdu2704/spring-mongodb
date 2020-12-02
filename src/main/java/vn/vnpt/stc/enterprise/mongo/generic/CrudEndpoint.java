@@ -26,6 +26,6 @@ public abstract class CrudEndpoint<T extends IdEntity, ID> {
 
     public void process(Event event){
         event = service.process(event);
-        //eventBus.publish(Constants.TOPIC_EXCHANGE, Constants.HTTP_GW_ROUTING_KEY, event);
+        eventBus.publish(event.topicExchangeResponse, event.routingKeyResponse, event);
     }
 }

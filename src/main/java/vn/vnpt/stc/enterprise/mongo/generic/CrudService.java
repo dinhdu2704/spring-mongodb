@@ -17,6 +17,7 @@ import vn.vnpt.stc.enterpise.commons.constants.QueueConstants;
 import vn.vnpt.stc.enterpise.commons.entities.dto.PageInfo;
 import vn.vnpt.stc.enterpise.commons.entities.dto.SearchInfo;
 import vn.vnpt.stc.enterpise.commons.entities.dto.StringIdInfo;
+import vn.vnpt.stc.enterpise.commons.entities.generic.MgIdEntity;
 import vn.vnpt.stc.enterpise.commons.errors.ErrorInfo;
 import vn.vnpt.stc.enterpise.commons.errors.ErrorKey;
 import vn.vnpt.stc.enterpise.commons.event.Event;
